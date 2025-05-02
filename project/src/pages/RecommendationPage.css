@@ -1,0 +1,61 @@
+/* src/pages/RecommendationPage.css */
+
+.recommendation-page-container {
+  max-w: 960px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page-title {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.selected-skills-section {
+  background-color: #e7f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 1.3em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.selected-skills-list {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.no-recommendations {
+  font-size: 1.2em;
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffebee;
+  border-radius: 8px;
+}
+
+.recommendations-list-container {
+  margin-top: 20px;
+}
+
+.recommendations-info {
+  font-size: 1.1em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for CourseList component (the container) */
+/* The actual styling for individual courses will be in CourseList.css */

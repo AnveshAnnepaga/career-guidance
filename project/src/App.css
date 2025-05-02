@@ -1,0 +1,44 @@
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.rating-group {
+  margin-bottom: 20px;
+}
+
+.rating-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.rating-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.recommendations {
+  margin-top: 30px;
+}
+
+.course-card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

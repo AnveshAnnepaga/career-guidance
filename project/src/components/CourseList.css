@@ -1,0 +1,175 @@
+/* src/components/CourseList.css */
+
+.recommendation-header-cl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recommendation-header-cl h2 {
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.header-button-cl {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.header-button-cl:hover {
+  background-color: #222222;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.course-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-list-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-item {
+  border: 1px solid #555;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  width:100%;
+  flex-shrink: 0;
+  color: #FFFFFF;
+}
+
+.course-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+}
+
+.course-item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.course-item-description {
+  color: #FFFFFF;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.course-item-section {
+  margin-bottom: 15px;
+  color: #FFFFFF; /* Ensure text under headings is white */
+}
+
+.resource-heading {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.course-item-link {
+  color: #3DA9FC;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.course-item-link:hover {
+  color: #78C0FF;
+  text-decoration: underline;
+}
+
+.course-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.course-item ul li {
+  color: #FFFFFF;
+}
+
+.course-item ul li a {
+  color: #3DA9FC;
+}
+
+.course-item ul li a:hover {
+  color: #78C0FF;
+  text-decoration: underline;
+}
+
+.course-item-materials-list li {
+  color: #FFFFFF;
+}
+
+.course-navigation-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.course-navigation-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.course-navigation-buttons button:hover {
+  background-color: #222222;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.course-navigation-buttons button:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+  color: #777;
+  border-color: #555;
+}
+
+.centered-button-cl {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.centered-button-cl:hover {
+  background-color: #222222;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}

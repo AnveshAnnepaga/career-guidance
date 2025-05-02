@@ -1,0 +1,80 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+/* Left */
+.login-page__left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.company-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Right */
+.login-page__right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Box */
+.login-page__login-box {
+  background-color: #fff;
+  padding: 40px;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  max-width: 350px;
+}
+
+.login-page__input-field {
+  padding: 10px;
+  margin: 20px 0;
+  border: 2px solid #000;
+  border-radius: 8px;
+  width: 50%;
+  font-size: 1em;
+  transition: box-shadow 0.3s ease;
+}
+
+.login-page__input-field:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.login-page__button {
+  padding: 10px 25px;
+  font-size: 1em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-page__button:hover {
+  background-color: #333;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #000;
+  height: 50%;
+  align-self: center;
+}
